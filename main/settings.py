@@ -20,7 +20,7 @@ OPENSHIFT = True if 'OPENSHIFT_REPO_DIR' in os.environ else False
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = '<enter your secrete key>'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True

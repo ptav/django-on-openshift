@@ -22,12 +22,12 @@ you can clone the project locally.
 
 Before you push the project for the first time:
  
-  1  Update `setup.py`
-  2  Update `SECRET_KEY` in `main/settings.py`
-  3  `git push`
-  4  ssh into Openshift account and then:
-       cd app-root/runtime/repo
-       python manage.py createsuperuser (enter admin user credentials)
+  1.  Update `setup.py`
+  2.  Update `SECRET_KEY` in `main/settings.py`
+  3.  `git push`
+  4.  ssh into Openshift account and then:
+        cd app-root/runtime/repo
+        python manage.py createsuperuser (enter admin user credentials)
         
 
 On the first push the database is created but no admin user is setup, hence the

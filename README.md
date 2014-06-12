@@ -26,8 +26,8 @@ Before you push the project for the first time:
   2.  Update `SECRET_KEY` in `main/settings.py`
   3.  `git push`
   4.  ssh into Openshift account and then:
-        cd app-root/runtime/repo
-        python manage.py createsuperuser (enter admin user credentials)
+        `cd app-root/runtime/repo`
+        `python manage.py createsuperuser` (enter admin user credentials)
         
 
 On the first push the database is created but no admin user is setup, hence the

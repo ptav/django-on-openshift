@@ -10,8 +10,15 @@ in Openshift or in the projects root folder  when running locally (after calling
 'manage.py runserver')
 
 The project has been changed as little as possible from the default. Only the 
-wsgipy file that is created within the project folder has been moved to the
+wsgi.py file that is created within the project folder has been moved to the
 root folder to fit with Openshift's default behaviour
+
+The easiest way to use this template is to create a Openshift project using the 
+web site. Choose the Python 2.7 cartridge, then on the setting page enter your
+chosen project name. In the "Source Code" input box enter the dhango-on-openshift
+https link (https://github.com/ptav/django-on-openshift.git). Chose your preferred
+scaling option and click he "Create Application" button. Once finished you can
+clone the project locally.
 
 Before you push the project for the first time:
  

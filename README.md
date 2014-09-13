@@ -1,5 +1,5 @@
-Django 1.6 on Openshift Python 2.7 gear
-=======================================
+Django on Openshift Python 2.7 gear
+===================================
 
 This repository helps you to start running the new style Django 1.6+ on an 
 Openshift python 2.7 gear
@@ -8,6 +8,9 @@ The Django project is called `main` but feel free to change it. The default
 database is sqlite3 and is found in `$OPENSHIFT_DATA_DIR/db.sqlite3` when
 running in Openshift or in the projects root folder  when running locally 
 with Django's test server
+
+The requirements file is setup for the latest Django version at the time of
+writting (1.7) but the project has been tested also on 1.6
 
 The project has been changed as little as possible from the default. Only the 
 `main/wsgi.py` file that is created within the project folder has been moved 
